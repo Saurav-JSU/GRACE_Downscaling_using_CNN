@@ -4,8 +4,7 @@ This `README.md` file provides an overview of the project, its structure, setup 
 
 This project focuses on downscaling GRACE (Gravity Recovery and Climate Experiment) data using various auxiliary datasets. The project is structured to preprocess data, train models, and evaluate the results.
 
-## Project Structure
-.
+## Project Structure.
 ├── grace_downscaling/             # Main package directory
 │   ├── __init__.py
 │   ├── data/                      # Data handling modules
@@ -16,21 +15,22 @@ This project focuses on downscaling GRACE (Gravity Recovery and Climate Experime
 │   │   ├── data_validator.py      # Data validation tools
 │   │   └── preprocessor.py        # Data preprocessing functions
 │   ├── models/                    # Model definitions
-│   │   └── cnn_model.py          # CNN model architecture
+│   │   └── cnn_model.py           # CNN model architecture
 │   ├── training/                  # Training related code
-│   │   └── train.py              # Training pipeline
+│   │   └── train.py               # Training pipeline
 │   └── utils/                     # Utility functions
 │       ├── __init__.py
-│       └── config.py             # Configuration settings
+│       └── config.py              # Configuration settings
 │
-├── notebooks/                     # Jupyter notebooks
-│   ├── Getting GEE data.ipynb    # Google Earth Engine data collection
-│   └── Processing GEE data.ipynb # Data processing and preparation
+├── notebooks/                     # Jupyter notebooks for data processing
+│   ├── Getting GEE data.ipynb      # Google Earth Engine data collection
+│   └── Processing GEE data.ipynb   # Data processing and preparation
 │
-├── tests/                        # Test directory
-├── requirements.txt              # Project dependencies
-├── setup.py                      # Package setup file
-└── README.md                     # Project documentation
+├── tests/                         # Test directory
+├── requirements.txt               # Project dependencies
+├── setup.py                       # Package setup file
+└── README.md                      # Project documentation
+
 
 ## Notebooks
 
