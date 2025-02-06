@@ -5,7 +5,32 @@ This `README.md` file provides an overview of the project, its structure, setup 
 This project focuses on downscaling GRACE (Gravity Recovery and Climate Experiment) data using various auxiliary datasets. The project is structured to preprocess data, train models, and evaluate the results.
 
 ## Project Structure
-. ├── a.py ├── Getting GEE data.ipynb ├── grace_downscaling/ │ ├── init.py │ ├── data/ │ │ ├── init.py │ │ ├── data_diagnostics.py │ │ ├── data_generator.py │ │ ├── data_loader.py │ │ ├── data_validator.py │ │ └── preprocessor.py │ ├── models/ │ │ └── cnn_model.py │ ├── training/ │ │ └── train.py │ └── utils/ │ └── init.py ├── grace_downscaling.egg-info │ ├── dependency_links.txt │ ├── PKG-INFO │ ├── requires.txt │ ├── SOURCES.txt │ └── top_level.txt ├── Processing GEE data.ipynb ├── README.md ├── requirements.txt ├── setup.py └── tests/
+.
+├── grace_downscaling/             # Main package directory
+│   ├── __init__.py
+│   ├── data/                      # Data handling modules
+│   │   ├── __init__.py
+│   │   ├── data_diagnostics.py    # Data quality checking tools
+│   │   ├── data_generator.py      # Training data generation
+│   │   ├── data_loader.py         # Data loading utilities
+│   │   ├── data_validator.py      # Data validation tools
+│   │   └── preprocessor.py        # Data preprocessing functions
+│   ├── models/                    # Model definitions
+│   │   └── cnn_model.py          # CNN model architecture
+│   ├── training/                  # Training related code
+│   │   └── train.py              # Training pipeline
+│   └── utils/                     # Utility functions
+│       ├── __init__.py
+│       └── config.py             # Configuration settings
+│
+├── notebooks/                     # Jupyter notebooks
+│   ├── Getting GEE data.ipynb    # Google Earth Engine data collection
+│   └── Processing GEE data.ipynb # Data processing and preparation
+│
+├── tests/                        # Test directory
+├── requirements.txt              # Project dependencies
+├── setup.py                      # Package setup file
+└── README.md                     # Project documentation
 
 ## Notebooks
 
