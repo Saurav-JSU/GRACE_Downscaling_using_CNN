@@ -5,6 +5,7 @@ This `README.md` file provides an overview of the project, its structure, setup 
 This project focuses on downscaling GRACE (Gravity Recovery and Climate Experiment) data using various auxiliary datasets. The project is structured to preprocess data, train models, and evaluate the results.
 
 ## Project Structure.
+```
 ├── grace_downscaling/             # Main package directory
 │   ├── __init__.py
 │   ├── data/                      # Data handling modules
@@ -30,7 +31,7 @@ This project focuses on downscaling GRACE (Gravity Recovery and Climate Experime
 ├── requirements.txt               # Project dependencies
 ├── setup.py                       # Package setup file
 └── README.md                      # Project documentation
-
+```
 
 ## Notebooks
 
